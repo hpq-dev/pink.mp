@@ -1,0 +1,1 @@
+export const useProcentage = (value: number, max: number) => (100 * value) / max

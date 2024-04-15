@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+
+*::selection {
+    background: #FE80CC66;
+    color: white;
+}
+
+* {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* img {
+    pointer-events: none;
+    user-select: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
